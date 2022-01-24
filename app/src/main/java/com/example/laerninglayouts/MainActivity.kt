@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun addNickName(view: View) {
         binding.apply{
-            myName?.nickname = binding.editText.text.toString()
+            textView.text = editText.text.toString()
             invalidateAll()
             editText.visibility = View.GONE
             view.visibility = View.GONE

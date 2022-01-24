@@ -21,7 +21,7 @@
             style="@style/name_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@={myName.namePerson}"
+            android:text="@={myName.name}"
             android:textAlignment="center"
             app:drawableBottomCompat="@android:drawable/btn_star_big_on" />
 
